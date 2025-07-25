@@ -1,0 +1,21 @@
+
+public class WarmupOne_Max1020{
+  public static void main(String args[]) {
+        System.out.println(max1020(12, 45));
+  }
+
+public static int max1020(int a, int b) {
+
+  if((a >= 10  && a <= 20) && (b >= 10  && b <= 20))
+      return Math.max(a,b);
+  
+  else if((a < 10 || a > 20) && (b >= 10  && b <= 20))  
+      return b;
+  
+  else if((a >= 10  && a <= 20) && (b < 10 || b > 20))
+      return a;
+  
+    return 0;
+}
+
+}
