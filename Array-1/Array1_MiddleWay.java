@@ -1,3 +1,4 @@
+
 public class Array1_MiddleWay {
   public static void main(String args[]) {
     int[] array =  {2, 3, 4};
@@ -17,3 +18,4 @@ public class Array1_MiddleWay {
 
 
 }
+
