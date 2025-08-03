@@ -1,0 +1,19 @@
+public class string2_RepeatEnd {
+    public static void main(String[] args) {
+
+        System.out.println(repeatEnd("aaxbb", 2));
+    }
+
+    public static String repeatEnd(String str, int n) {
+
+        String result = "";
+        int sringLength = str.length();
+
+        for(int i = 0 ; i < n ; i++)
+        {
+            result += str.substring(sringLength - n);
+        }
+
+        return result;
+    }
+}
